@@ -1,0 +1,35 @@
+Departamentos
+
+El administrador del consorcio de un edificio mantiene
+un archivo en el cual cada registro contiene información
+sobre los departamentos de ese edificio. Por cada departamento,
+se deben almacenar los datos siguientes:
+Número identificatorio del departamento (un int),
+nombre del inquilino o propietario, piso en el que
+está ese departamento (un número entre 1 y 12),
+un código entre 0 y 4 que indique el estado del
+departamento (0: deshabitado, 1: alquilado, 2: habitado por el dueño, etc.)
+y finalmente el monto que le corresponde a ese departamento por pago de
+gastos comunes. Se pide un programa completo con menú de opciones que
+para hacer lo siguiente:
+
+1. Generar registros con datos aleatorios o cargar los datos por teclado para
+registros de departamentos, almacenar los registros en un archivo.
+Si el archivo no existía, crearlo. Si existía, preservar su contenido anterior.
+
+2. Mostrar el archivo creado en el punto 1.
+
+3. A partir del archivo, crear un arreglo de registros en el cual se copien
+los datos de todos los departamentos del archivo.
+El arreglo debe crearse de forma que siempre quede ordenado de menor
+a mayor, según el código de identificación. Se considerará incorrecta
+la solución basada en cargar todo el arreglo y ordenarlo al final.
+
+4. Buscar todos los departamentos con propietario o inquilino de nombre
+igual a un nombre que se carga por teclado y copiarlos en un nuevo
+vector, mostrar el contenido del vector resultante.
+
+5. Usando el arreglo creado en el punto 3, determine el importe acumulado
+en gastos comunes por cada posible piso y por cada posible estado
+(o sea, 12 * 5 = 60 acumuladores en una matriz de acumulación).
+Muestre sólo los resultados diferentes de 0.

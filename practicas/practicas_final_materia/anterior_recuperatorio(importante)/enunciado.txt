@@ -1,0 +1,37 @@
+# Un estudio cinematográfico solicita un programa para procesar los datos de las películas que tiene producidas.
+
+# Por cada película, se tienen los siguientes datos: número de identificación (un entero), título (una cadena),
+# el tipo de película (un entero entre 1 y 20 para indicar, por ejemplo: 1: infantil, 2: acción, etc.), la calificación
+# (otro entero, entre 0 y 5 para indicar por ejemplo: 0: apta para todo público, 1: apta para mayores de 13, etc.) y el
+#  costo de producción (un flotante).
+#  Se pide definir en un módulo separado el tipo de registro Pelicula con los campos
+#  pedidos, y desarrollar en un segundo módulo un programa en Python controlado por menú de opciones que permita gestionar
+#  las siguientes tareas:
+
+# Cargar un arreglo de registros con los datos de n películas de manera que en todo momento se mantenga ordenado por t
+# ítulo, de menor a mayor. Para esto debe utilizar el algoritmo de inserción ordenada con búsqueda binaria (se considerará
+# directamente incorrecta la solución basada en cargar el arreglo completo y ordenarlo al final, o aplicar el algoritmo
+# de inserción ordenada, pero con búsqueda secuencial). Puede hacer la carga en forma manual (en cuyo caso realice las
+# validaciones que sean necesarias), o puede generar los datos en forma automática (con valores aleatorios generados en
+# el rango correcto). Pero si hace carga manual, TODA la carga debe ser manual, y si la hace automática entonces TODA debe ser automática.
+
+# Mostrar los datos de las películas (a razón de una por por línea de pantalla) cuyo costo sea mayor a un valor c que se
+# carga por teclado y cuyo tipo sea igual al valor t que también se carga por teclado.
+
+# Usando el arreglo creado en el punto 1, determine la cantidad de películas por cada combinación posible de tipo y
+# calificación (o sea, 120 contadores: cantidad de películas tipo 1 con calificación 0,  tipo 1 con calificación 2, etc.).
+# Genere TODOS los contadores, pero muestre sólo los resultados que correspondan a los tipos de películas
+# que sean mayores al valor t que se carga por teclado.
+
+# Usando el arreglo creado en el punto 1, generar un archivo con todas las películas cuyo costo sea menor al costo
+# promedio de todas las películas del vector. Si el archivo ya existía, eliminar su contenido y comenzar desde cero.
+
+# Mostrar por pantalla el contenido del archivo creado en el punto anterior. Pero al final del listado, muestre una
+# línea adicional indicando la cantidad de registros que se mostraron que eran del tipo x, cargando x por teclado.
+
+# En el menú de opciones del programa, incluya una opción
+# que permita cargar una cadena de caracteres, y luego pase esa cadena como parámetro a una función que determine
+# ...
+# cuántas palabras de la cadena tenían un dígito en la segunda posición y
+# tenían al menos una letra "a" o una "e" en
+# cualquier otra posición.

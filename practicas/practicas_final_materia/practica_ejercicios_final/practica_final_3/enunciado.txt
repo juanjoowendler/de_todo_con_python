@@ -1,0 +1,32 @@
+Empresa de Mudanzas
+(Enunciado de parcial - Año 2015)
+
+La gerencia de una empresa de mudanzas mantiene un archivo
+en el cual cada registro contiene información sobre las
+mudanzas realizadas en un período. Por cada una de esas
+mudanzas se deben almacenar los datos siguientes: número
+identificación (un int), dirección de destino (otra cadena),
+un código entre 0 y 4 indicando el tipo vehículo a usar
+(0: camión, 1: camioneta, etc.), la tarifa válida por el
+traslado, y el tipo de carga que se transporta (un número entre 0 y 9).
+Se pide un programa completo con menú de opciones que para hacer
+lo siguiente:
+
+1.Cargar registros en el archivo de mudanzas.
+Si el archivo no existía, crearlo. Si existía,
+preservar su contenido anterior.
+
+2.Mostrar el archivo creado en el punto 1.
+
+3.A partir del archivo, crear un arreglo de registros en el cual se copien
+los datos de todos los registros del archivo cuya tarifa sea mayor a la tarifa promedio
+de todo el arreglo. El arreglo debe crearse de forma que siempre quede ordenado de
+menor a mayor, según el número de identificación de los clientes.
+
+4.Mostrar el arreglo creado en el punto 3,
+a razón de un registro por línea en la pantalla.
+
+5.Usando el archivo creado en el punto 1, determine la cantidad de mudanzas
+realizadas con cada posible tipo de vehículo para cada uno de los posibles tipos de
+carga (o sea, 5 * 10 = 50 contadores en una matriz de conteo). Muestre sólo los
+resultados diferentes de 0.

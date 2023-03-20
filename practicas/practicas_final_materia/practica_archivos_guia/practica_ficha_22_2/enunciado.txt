@@ -1,0 +1,30 @@
+Ejercicio Tipo Parcial 4
+
+Un colegio secundario de la ciudad está organizando las actividades recreativas de la vuelta a la presencialidad.
+Tiene pensado organizar una semana de actividades deportivas y requiere un software para gestionar las inscripciones
+de alumnos en los diferentes deportes.
+Para ello requiere cargar los datos de los alumnos, de cada alumno se conoce el legajo (un numero entero),
+el nombre, el año que cursa (un número entre 1 y 7), y codigo de 0 a 9 que indica el deporte al que se inscribe
+(0 - basquet, 1 - rugby seven, 2 - tenis, etc.)
+Conociendo esta información se pide con menú de opciones :
+
+Parcial 2:
+1 - Cargar los datos de los estudiantes en un vector de registros o generar los datos de forma aleatoria, puede
+elegir una de las dos opciones pero no mezclarlas.
+Los datos deben agregarse al vector de forma tal que vayan quedando ordenados alfabéticamente por nombre a
+medida que se cargan. La solución de cargar todo y ordenar
+al final no será tenida en cuenta.
+
+2 - Buscar en el vector si existe un alumno con legajo x_legajo (x_legajo se carga por teclado) y con deporte
+x_codigo (xcodigo también se carga por teclado),
+si existe mostrar sus datos y si no existe agregar un registro con los datos anteriores solicitando además
+se cargue por teclado el nombre y el año que cursa.
+
+3 - Generar una matriz donde se cuente la cantidad de alumnos por deporte y año que cursa (10 * 7 = 70 contadores).
+Mostrar los contadores por deporte y año. No mostrar aquellos que no hayan tenido inscriptos.
+
+4 - Generar un archivo con los datos de todos alumnos inscriptos solicitando el nombre del archivo al
+usuario y validando que el nombre ingresado no corresponda a un archivo existente.
+
+5 - Mostrar el contenido del archivo creado en el punto 4 pero filtrando solo los alumnos del 7mo. año,
+si no hay registros con alumnos del 7mo. año informar con un mensaje.

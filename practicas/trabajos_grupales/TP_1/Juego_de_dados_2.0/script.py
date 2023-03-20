@@ -1,0 +1,6 @@
+# IMPORTACION DE LA BIBLIOTECA
+from funciones import *
+
+# INVOCACION DE LA FUNCION PARA INICIAR EL JUEGO
+
+principal()

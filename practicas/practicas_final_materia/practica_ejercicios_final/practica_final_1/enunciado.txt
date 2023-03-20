@@ -1,0 +1,50 @@
+Cabinas de Peaje
+Una empresa concesionaria de cabinas de peaje
+necesita un programa que le permita llevar estadísticas
+de las operatorias de los diferentes cobros realizados
+en sus puestos de peaje. De cada Cobro, se tiene un número
+identificatorio, el nombre del puesto que hizo el cobro
+(una cadena para describirlo, terminada en punto.
+Por ejemplo: “Autopista Carlos Paz.”, “Córdoba acceso norte.”, etc),
+el monto cobrado, el domino o patente del auto al que se le cobró
+(una cadena), y la hora en que se le cobró (para simplificar,
+un número entero entre 0 y 23).
+
+1. Generar un arreglo de registros que contenga los datos de
+todos los cobros que la empresa realizó. Puede generarlo en
+forma manual o aleatoria. No se exige que el arreglo se genere
+en forma ordenada.
+
+2. Muestre el arreglo generado, a razón de un registro por
+línea en la consola de salida.
+
+3. Muestre un listado ordenado por número de identificación,
+de menor a mayor, pero que sólo contenga los datos de los
+registros cuyo importe pagado sea menor a un valor m que
+se pasa como parámetro.
+
+4. Determine el monto acumulado que se cobró durante cada una
+de las 24 horas del día en las diferentes casillas de peaje
+(un total de 24 acumuladores). Pero muestre sólo los resultados
+que sean diferentes de 0 y que correspondan a horas nocturnas
+(horas entre las 20 y las 23, y entre las 0 y las 6).
+
+5. Genere un archivo binario con todos los registros de cobros
+que se hicieron desde un puesto de cobro cuyo número de
+identificación id se pasa como parámetro.
+
+6. Muestre el archivo generado en el punto 5, a razón de un
+registro por línea en la pantalla.
+
+7. Informar si se le ha cobrado un peaje a un auto cuya patente
+es un valor p, a una determinada hora h, siendo p y h dos valores
+pasados como parámetro. Si existe ese cobro, retorne el nombre del
+puesto que hizo el cobro, y muéstre ese nombre en pantalla.
+Si no existiera tal cobro, informar con un mensaje.
+
+8. Tome la cadena retornada en el punto 7 anterior, y determine
+cuántas palabras de esa cadena contienen al menos una letra mayúscula.
+Puede considerar que la cadena termina siempre con un punto, y que las
+palabras se separan entre ellas con un (y solo un) espacio en blanco.
+La cadena debe ser procesada caracter a caracter, a razón de uno por
+cada vuelta del ciclo que itere sobre ella.

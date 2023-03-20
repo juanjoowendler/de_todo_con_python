@@ -1,0 +1,50 @@
+ENUNCIADO:
+
+Una fábrica de muebles desea un programa para procesar los
+datos de los muebles que fabrica.
+Para cada mueble se registran los siguientes datos:
+código de identificación (un entero),
+nombre del mueble (una cadena), precio del mueble,
+tipo de mueble (un valor entre 0 y 9 por ejemplo:
+
+0: Sillas 1: Mesas etc.) y tipo de materia prima usada
+para su fabricación (un valor entre 0 y 14 por
+ejemplo: 0: Algarrobo 1: Roble, etc.). Se pide d
+efinir un tipo registro Mueble con los campos que se
+indicaron, y un programa completo con menú de
+opciones para hacer lo siguiente:
+
+1- Cargar los datos de n registros de tipo Mueble en un
+arreglo de registros (cargue n por teclado).
+El arreglo debe crearse de forma que siempre quede
+ordenado de mayor a menor, según el precio de
+los muebles
+
+2- Mostrar el vector completo a razón de un
+registro por línea.
+
+3- Buscar en el arreglo creado en el punto 1 un r
+egistro en el cual el nombre del mueble sea igual
+a nom (cargar nom por teclado). Si existe, mostrar
+por pantalla todos los datos de ese registro.
+Si no existe, informar con un mensaje. La búsqueda
+ debe detenerse al encontrar el primer registro
+que coincida con el patrón pedido.
+
+4- Usando el arreglo creado en el punto 1, determine la
+ cantidad de muebles de cada posible tipo de
+mueble por cada posible tipo de materia prima usada
+para su fabricación (o sea, 10 * 15 contadores en
+una matriz de conteo). Muestre sólo los
+resultados que sean distintos de cero.
+
+5- A partir del arreglo creado en el punto 1,
+crear un archivo de registros en el cual se copien los
+datos de todos los registros cuyo tipo de materia p
+rima usada para la fabricación del mueble sea 4 o 5.
+
+6- A partir del archivo creado en el punto 5, mostrar los
+registros cuyo precio sea superior a un valor p,
+que debe ser ingresado por teclado. Mostrar a razón de
+un registro por línea en la pantalla.
+

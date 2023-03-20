@@ -1,0 +1,37 @@
+                Empresa de Mudanzas
+
+*Adaptado de uno de los enunciados del Parcial 4 (2020)
+
+Una empresa de mudanzas mantiene información sobre los
+distintos trabajos de traslado que debe realizar.
+
+Por cada traslado se registran los datos siguientes: número
+de identificación del traslado (un número entero), nombre del
+cliente (una cadena), importe a facturar por el traslado,
+provincia destino del traslado (un valor entre 0 y 22 incluidos)
+y forma de pago (un número entero entre 0 y 4).
+
+Se pide definir un tipo registro Traslado con los campos que se indicaron,
+y un programa completo con menú de opciones para hacer lo siguiente:
+
+1. Cargar los datos de n registros de tipo Traslado en un arreglo de
+registros (cargue n por teclado). El arreglo debe crearse de forma que
+siempre quede ordenado de menor a mayor, según el número de identificación
+de los traslados.
+
+2. Mostrar el arreglo creado en el punto 1, a razón de un registro por línea.
+
+3. Buscar en el arreglo creado en el punto 1 un registro en el cual el
+nombre del cliente sea igual a nom (cargar nom por teclado).
+Si no existe, informar con un mensaje. Si existe, mostrar el
+registro y validar que el nombre esté compuesto sólo por letras
+y espacios (procesando los caracteres uno a uno); en caso de no
+ser válido, agregar un asterisco al final del nombre.
+
+4. A partir del arreglo, crear un archivo de registros en el cual se
+copien los datos de todos los traslados cuya forma de pago sea 0 y
+cuyo importe a facturar se encuentre entre dos valores a y b que se
+cargan por teclado.
+
+5. Mostrar el archivo creado en el punto anterior,
+a razón de un registro por línea en la pantalla.

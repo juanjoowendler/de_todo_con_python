@@ -1,0 +1,12 @@
+Desarrollar un programa controlado por menú de opciones, que permita
+realizar en forma completa la gestión ABM de un archivo de registros de estudiantes de una
+carrera universitaria. Por cada estudiante, prevea tres campos para el legajo, el nombre y el
+promedio (además del campo de marcado lógico para las bajas lógicas). El programa debe
+incluir opciones que permitan:
+
+a.) Realizar altas de registros en el archivo.
+b.) Realizar bajas lógicas.
+c.) Realizar la modificación de los datos de un registros.
+d.) Mostrar el contenido completo del archivo.
+e.) Mostrar los datos de los estudiantes con promedio mayor o igual a 7.
+f.) Realizar la depuración del archivo (proceso de bajas físicas).

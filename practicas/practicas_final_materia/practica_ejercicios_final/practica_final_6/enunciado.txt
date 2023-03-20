@@ -1,0 +1,47 @@
+                Servicios Agropecuarios
+
+* Examen Final del dia 19/11/2015 para alumnos regulares
+
+Una empresa de servicios agropecuarios necesita un programa
+para gestionar los datos de los distintas productos y
+servicios que tiene a para ofrecer a sus clientes.
+
+
+Por cada producto/servicio se conoce su número de
+identificación (un entero), su descripción o título
+(una cadena), un número entero entre 0 y 14 que indica el
+tipo de producto/servicio, otro número entero entre 0 y
+4 que indica la calidad del mismo y finalmente el precio
+de venta de ese producto/servicio.
+
+Se pide:
+
+Desarrollar un programa completo con menú de opciones que
+permita cumplir los requerimientos que se indican a continuación.
+
+1. Cargar los datos de n productos (ingrese el valor de n por teclado)
+en un arreglo unidimensional. Realice las validaciones que considere
+necesarias. Puede desarrollar este punto haciendo que el programa
+genere en forma aleatoria el contenido de cada registro.
+
+2. Mostrar los datos de todos los productos del vector, ordenados
+por número de identificación.
+
+3. Generar otro arreglo que contenga los datos de todos los productos
+del arreglo original que sean de tipo menor a 10. El agregado en este
+nuevo arreglo debe hacerse de forma que vaya quedando siempre ordenado
+de menor a mayor por precio de venta.
+
+4. Mostrar el nuevo arreglo, a razón de un registro por línea.
+
+5. Usando el segundo arreglo, mostrar los datos de todos los productos
+cuyo precio sea menor o igual a un valor p que se carga por teclado.
+
+6. Usando el segundo arreglo, determinar y mostrar la cantidad de
+productos que por cada tipo posible y por cada indicador de calidad
+posible. Es decir, se quiere saber cuántos existen del tipo 0 que
+sean de calidad 0, cuántos del tipo 0 y calidad 1, etc.
+
+7. Grabar en un archivo todos los datos del segundo arreglo.
+
+8. Mostrar el archivo que se acaba de crear en el punto anterior.

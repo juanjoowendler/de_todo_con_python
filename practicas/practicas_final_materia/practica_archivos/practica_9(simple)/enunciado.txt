@@ -1,0 +1,41 @@
+Colegio Profesiones (Tipo Parcial 4)
+Un colegio o asociación de profesionales mantiene información sobre
+ sus distintos miembros. Por cada miembro se registran los campos
+ siguientes: número de dni del profesional (un número entero),
+ nombre del profesional (una cadena), importe que paga al colegio
+ por mes, tipo de afiliación (un valor entre 0 y 4 incluidos,
+ por ejemplo de la forma 0: vitalicio, 1: transitorio, 2: indirecto, etc.)
+ y un número que identifica el tipo de trabajo que desempeña
+ (un número entero entre 0 y 14 incluidos, para indicar
+ (por ejemplo): 0: empleado, 1: jefe o director, 2: administrativo, etc.)
+  Se pide definir un tipo registro Profesional con los campos que se
+  indicaron, y un programa completo con menú de opciones para hacer lo siguiente:
+
+1- Cargar los datos de n registros de tipo Profesional en un arreglo de registros
+(cargue n por teclado). Puede cargar los datos manualmente, o puede generarlos
+ aleatoriamente. El arreglo debe crearse de forma que siempre quede ordenado de
+  menor a mayor, según el dni de los profesionales. Se considerará incorrecta
+  la solución basada en cargar el arreglo completo y ordenarlo al final.
+
+2- Mostrar el arreglo creado en el punto 1, a razón de un registro por línea.
+
+3- Buscar en el arreglo creado en el punto 1 un profesional con dni igual a un
+valor doc (doc es cargado por teclado). Si no existe, informar con un mensaje.
+Si existe mostrar todos sus datos, al final agregar un mensaje que indique que
+tiene el importe desactualizado, si es menor a un valor imp (tambien cargado por teclado)
+
+4- A partir del arreglo, crear un archivo de registros en el cual se copien los
+ datos de todos los profesionales cuyo tipo de trabajo sea 3, 4 o 5 y cuyo
+ importe pagado mensual sea mayor a un valor x que se carga por teclado.
+
+5- Mostrar el archivo creado en el punto 3, a razón de un registro por línea en la pantalla.
+
+6- Buscar en el arreglo creado en el punto 1 un registro en el cual el nombre
+del profesional sea igual a nom (cargar nom por teclado). Si existe, mostrar
+por pantalla todos los datos de ese registro. Si no existe, informar con un mensaje.
+La búsqueda debe detenerse al encontrar el primer registro que coincida con el patrón pedido.
+
+7- Usando el arreglo creado en el punto 1, determine la cantidad de profesionales de
+cada posible tipo d afiliación por cada posible tipo de trabajo
+(o sea, 5 * 15 = 75 contadores en una matriz de conteo). Muestre sólo los resultados
+que sean diferentes de 0.

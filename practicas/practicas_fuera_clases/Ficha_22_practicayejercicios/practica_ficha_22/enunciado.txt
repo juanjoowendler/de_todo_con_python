@@ -1,0 +1,29 @@
+
+La empresa de streaming AlgoFlix++ nos encargó un módulo para gestionar su catálogo de películas.
+ De cada película se conoce:
+
+    - Código de Película: Un entero que la identifica
+    - Título: Un string
+    - Género: un entero [0, 5]
+    - Calificación (estrellas): un entero [1, 5]
+
+Se nos pide un programa en Python que permita:
+
+1) Cargar los datos de n películas en un vector que permanezca siempre ordenado por código de película
+
+2) Mostrar el vector
+
+3) Solicitarle al usuario un género (valor del 0 al 5) y grabar un archivo que contenga todas las películas
+de ese género en un archivo denominado "Películas_X.dat" siendo 'X' el código de género seleccionado.
+Una vez el archivo se haya creado, mostrar el contenido del mismo.
+
+4) Buscar en el vector generado en el punto 1 una película por codigo. En caso de encontrarla, reemplazar
+su calificación por un nuevo valor que el usuario introduzca
+
+5) Indicar cuántas películas hay por género y por calificación.
+
+Agregar...
+
+6) Permitir al usuario buscar una película por título. Si se encuentra, agregarla al archivo "Votacion.dat"
+(no perder los datos que había en ese archivo)
+

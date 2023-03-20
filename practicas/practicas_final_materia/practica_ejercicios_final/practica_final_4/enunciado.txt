@@ -1,0 +1,33 @@
+Colegio de Ingenieros
+(Enunciado de Parcial - Año 2015)
+
+El Colegio de Ingenieros desea almacenar en un arreglo unidimensional
+la información referida a los n ingenieros que tiene asociados en
+toda la provincia (cargar n por teclado). Por cada socio, se pide
+guardar su número de dni (un número entero), el nombre, el monto
+de cuota de asociado que abona, y un número entre 0 y 24 (incluidos)
+que indica la especialidad profesional de ese socio, y otro número
+ entero entre 0 y 4 (incluidos) que indica en qué delegación del
+ Colegio de Ingenieros está registrado ese socio.
+
+Se pide un programa completo con menú de opciones que para
+hacer lo siguiente:
+
+1- Cargar los datos de los socios en un arreglo de registros,
+ a razón de un registro por socio. Este arreglo debe generarse
+  de forma que en todo momento esté ordenado por dni.
+
+2- Mostrar el arreglo creado en el punto 1, a razón de un
+ registro por línea en la pantalla.
+
+3- Grabar en un archivo los registros contenidos en el
+arreglo anterior, que correspondan a ingenieros cuyo
+monto de cuota sea mayor a un valor x que se carga por teclado.
+
+4- Mostrar el archivo creado en el punto 3.
+
+5- Usando el archivo creado en el punto 3, determine la
+ cantidad de ingenieros que están registrados por cada
+ posible especialidad en cada posible región
+ (o sea, 25 * 5 = 125 contadores en una matriz de conteo).
+  Muestre sólo los resultados diferentes de 0.
